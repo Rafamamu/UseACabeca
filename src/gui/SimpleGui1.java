@@ -8,9 +8,13 @@ public class SimpleGui1 {
         JFrame frame = new JFrame();
         JButton button = new JButton("click me");
 
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.getContentPane().add(button);
+
+        button.setSize(100,100);
+
 
         frame.setSize(300,300);
 
